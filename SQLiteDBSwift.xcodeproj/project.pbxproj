@@ -10,8 +10,6 @@
 		CA448ED61BF2FD0B00A93984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA448ED41BF2FD0B00A93984 /* Main.storyboard */; };
 		CA448ED81BF2FD0B00A93984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA448ED71BF2FD0B00A93984 /* Assets.xcassets */; };
 		CA448EDB1BF2FD0B00A93984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA448ED91BF2FD0B00A93984 /* LaunchScreen.storyboard */; };
-		CA448EE61BF2FD0B00A93984 /* SQLiteDBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA448EE51BF2FD0B00A93984 /* SQLiteDBSwiftTests.swift */; };
-		CA448EF11BF2FD0B00A93984 /* SQLiteDBSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA448EF01BF2FD0B00A93984 /* SQLiteDBSwiftUITests.swift */; };
 		CA448F181BF2FDB500A93984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA448F121BF2FDB500A93984 /* AppDelegate.swift */; };
 		CA448F191BF2FDB500A93984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA448F171BF2FDB500A93984 /* ViewController.swift */; };
 		CA448F241BF2FDFC00A93984 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CA448F1E1BF2FDFC00A93984 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -51,11 +49,7 @@
 		CA448EDA1BF2FD0B00A93984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA448EDC1BF2FD0B00A93984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA448EE11BF2FD0B00A93984 /* SQLiteDBSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDBSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA448EE51BF2FD0B00A93984 /* SQLiteDBSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDBSwiftTests.swift; sourceTree = "<group>"; };
-		CA448EE71BF2FD0B00A93984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA448EEC1BF2FD0B00A93984 /* SQLiteDBSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDBSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA448EF01BF2FD0B00A93984 /* SQLiteDBSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDBSwiftUITests.swift; sourceTree = "<group>"; };
-		CA448EF21BF2FD0B00A93984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA448EFE1BF2FD3100A93984 /* SQLiteDBSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteDBSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		CA448F121BF2FDB500A93984 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA448F171BF2FDB500A93984 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +100,6 @@
 			children = (
 				CA448F2A1BF2FE8500A93984 /* libsqlite3.0.tbd */,
 				CA448ECF1BF2FD0B00A93984 /* SQLiteDBSwift */,
-				CA448EE41BF2FD0B00A93984 /* SQLiteDBSwiftTests */,
-				CA448EEF1BF2FD0B00A93984 /* SQLiteDBSwiftUITests */,
 				CA448ECE1BF2FD0B00A93984 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,24 +132,6 @@
 				CA448EDC1BF2FD0B00A93984 /* Info.plist */,
 			);
 			path = SQLiteDBSwift;
-			sourceTree = "<group>";
-		};
-		CA448EE41BF2FD0B00A93984 /* SQLiteDBSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				CA448EE51BF2FD0B00A93984 /* SQLiteDBSwiftTests.swift */,
-				CA448EE71BF2FD0B00A93984 /* Info.plist */,
-			);
-			path = SQLiteDBSwiftTests;
-			sourceTree = "<group>";
-		};
-		CA448EEF1BF2FD0B00A93984 /* SQLiteDBSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CA448EF01BF2FD0B00A93984 /* SQLiteDBSwiftUITests.swift */,
-				CA448EF21BF2FD0B00A93984 /* Info.plist */,
-			);
-			path = SQLiteDBSwiftUITests;
 			sourceTree = "<group>";
 		};
 		CA448F111BF2FDB500A93984 /* AppDelegate */ = {
@@ -347,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -413,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA448EE61BF2FD0B00A93984 /* SQLiteDBSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA448EF11BF2FD0B00A93984 /* SQLiteDBSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +525,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteDBSwift/SQLiteDBSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -565,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.SQLiteDBSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteDBSwift/SQLiteDBSwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -635,6 +610,7 @@
 				CA448EF71BF2FD0B00A93984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA448EF81BF2FD0B00A93984 /* Build configuration list for PBXNativeTarget "SQLiteDBSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +619,7 @@
 				CA448EFA1BF2FD0B00A93984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA448EFB1BF2FD0B00A93984 /* Build configuration list for PBXNativeTarget "SQLiteDBSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +628,7 @@
 				CA448EFD1BF2FD0B00A93984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
